@@ -1,10 +1,8 @@
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
+import meter95 from "../assets/img/meter95.svg";
+import meter90 from "../assets/img/meter90.svg";
+import meter80 from "../assets/img/meter80.svg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import arrow1 from "../assets/img/arrow1.svg";
-import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png"
 
 export const Skills = () => {
@@ -35,23 +33,55 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
-                        <p>I have experience with all popular programing languages<br></br>And framework technology</p>
+                        <p>I am experienced with various programming languages,<br></br>frameworks, container technologies, cloud platforms, and databases.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={meter95} alt="Image" />
                                 <h5>Java</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={meter95} alt="Image" />
                                 <h5>Python</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
+                                <img src={meter90} alt="Image" />
                                 <h5>JavaScript/TypeScript</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
+                                <img src={meter90} alt="Image" />
+                                <h5>HTML/CSS</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter80} alt="Image" />
+                                <h5>SQL</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter90} alt="Image" />
                                 <h5>AWS</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter80} alt="Image" />
+                                <h5>Google Cloud</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter90} alt="Image" />
+                                <h5>Node.js</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter90} alt="Image" />
+                                <h5>React</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter90} alt="Image" />
+                                <h5>Git</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter90} alt="Image" />
+                                <h5>RESTful API</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter90} alt="Image" />
+                                <h5>Docker</h5>
                             </div>
                         </Carousel>
                     </div>
