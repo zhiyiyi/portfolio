@@ -36,51 +36,51 @@ export const Skills = () => {
                         <p>I am experienced with various programming languages,<br></br>frameworks, container technologies, cloud platforms, and databases.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter95} alt="Image" />
+                                <img src={meter95} alt="" />
                                 <h5>Java</h5>
                             </div>
                             <div className="item">
-                                <img src={meter95} alt="Image" />
+                                <img src={meter95} alt="" />
                                 <h5>Python</h5>
                             </div>
                             <div className="item">
-                                <img src={meter90} alt="Image" />
+                                <img src={meter90} alt="" />
                                 <h5>JavaScript/TypeScript</h5>
                             </div>
                             <div className="item">
-                                <img src={meter90} alt="Image" />
+                                <img src={meter90} alt="" />
                                 <h5>HTML/CSS</h5>
                             </div>
                             <div className="item">
-                                <img src={meter80} alt="Image" />
+                                <img src={meter80} alt="" />
                                 <h5>SQL</h5>
                             </div>
                             <div className="item">
-                                <img src={meter90} alt="Image" />
+                                <img src={meter90} alt="" />
                                 <h5>AWS</h5>
                             </div>
                             <div className="item">
-                                <img src={meter80} alt="Image" />
+                                <img src={meter80} alt="" />
                                 <h5>Google Cloud</h5>
                             </div>
                             <div className="item">
-                                <img src={meter90} alt="Image" />
+                                <img src={meter90} alt="" />
                                 <h5>Node.js</h5>
                             </div>
                             <div className="item">
-                                <img src={meter90} alt="Image" />
+                                <img src={meter90} alt="" />
                                 <h5>React</h5>
                             </div>
                             <div className="item">
-                                <img src={meter90} alt="Image" />
+                                <img src={meter90} alt="" />
                                 <h5>Git</h5>
                             </div>
                             <div className="item">
-                                <img src={meter90} alt="Image" />
+                                <img src={meter90} alt="" />
                                 <h5>RESTful API</h5>
                             </div>
                             <div className="item">
-                                <img src={meter90} alt="Image" />
+                                <img src={meter90} alt="" />
                                 <h5>Docker</h5>
                             </div>
                         </Carousel>
@@ -88,7 +88,7 @@ export const Skills = () => {
                 </div>
             </div>
         </div>
-        <img className="background-image-left" src={colorSharp} alt="Image" />
+        <img className="background-image-left" src={colorSharp} alt="" />
     </section>
   )
 }
